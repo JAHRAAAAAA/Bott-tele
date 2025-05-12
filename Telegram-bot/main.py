@@ -1,4 +1,8 @@
 import os
+import sys
+
+# Menambahkan direktori root proyek ke path Python
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageHandler, Filters, CallbackContext
 from config import TELEGRAM_BOT_TOKEN, DOWNLOADS_FOLDER
