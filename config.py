@@ -1,0 +1,3 @@
+# config.py
+TELEGRAM_BOT_TOKEN = "7661498931:AAF92h-dx1miWbkf3VWzeHRKvZMh-vjwRUI"
+DOWNLOADS_FOLDER = "downloads/"
